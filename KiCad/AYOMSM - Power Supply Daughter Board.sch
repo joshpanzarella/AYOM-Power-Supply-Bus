@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Power Supply Bus"
+Date "2020-07-25"
+Rev "1.0"
+Comp "Shapetaker"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -21,6 +21,7 @@ F 0 "J1" H 3500 3175 50  0000 C CNN
 F 1 "PWR_IN" H 3500 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 3450 3800 50  0001 C CNN
 F 3 "~" H 3450 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 3450 3800 50  0001 C CNN "Ordering"
 	1    3450 3800
 	-1   0    0    1   
 $EndComp
@@ -121,6 +122,7 @@ F 0 "J2" H 4800 3175 50  0000 C CNN
 F 1 "CONN_1" H 4800 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 4750 3800 50  0001 C CNN
 F 3 "~" H 4750 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 4750 3800 50  0001 C CNN "Ordering"
 	1    4750 3800
 	-1   0    0    1   
 $EndComp
@@ -332,6 +334,7 @@ F 0 "J3" H 6075 3175 50  0000 C CNN
 F 1 "CONN_2" H 6075 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 6025 3800 50  0001 C CNN
 F 3 "~" H 6025 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 6025 3800 50  0001 C CNN "Ordering"
 	1    6025 3800
 	-1   0    0    1   
 $EndComp
@@ -343,6 +346,7 @@ F 0 "C1" H 1525 3500 50  0000 L CNN
 F 1 "10uF" H 1525 3425 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 1538 3450 50  0001 C CNN
 F 3 "~" H 1500 3600 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/10uf-35v-105c-jrb-radial-electrolytic-capacitor-5x11mm.html\">Tayda</a>" H 1500 3600 50  0001 C CNN "Ordering"
 	1    1500 3600
 	1    0    0    -1  
 $EndComp
@@ -354,6 +358,7 @@ F 0 "C2" H 1525 4375 50  0000 L CNN
 F 1 "10uF" H 1525 4300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 1538 4050 50  0001 C CNN
 F 3 "~" H 1500 4200 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/10uf-35v-105c-jrb-radial-electrolytic-capacitor-5x11mm.html\">Tayda</a>" H 1500 4200 50  0001 C CNN "Ordering"
 	1    1500 4200
 	1    0    0    -1  
 $EndComp
@@ -365,6 +370,7 @@ F 0 "C4" H 1900 4375 50  0000 L CNN
 F 1 "1uF" H 1900 4300 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1913 4050 50  0001 C CNN
 F 3 "~" H 1875 4200 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor/1uf-50v-multilayer-ceramic-capacitor.html\">Tayda</a>" H 1875 4200 50  0001 C CNN "Ordering"
 	1    1875 4200
 	1    0    0    -1  
 $EndComp
@@ -476,6 +482,7 @@ F 0 "J4" H 7350 3175 50  0000 C CNN
 F 1 "CONN_3" H 7350 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 7300 3800 50  0001 C CNN
 F 3 "~" H 7300 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 7300 3800 50  0001 C CNN "Ordering"
 	1    7300 3800
 	-1   0    0    1   
 $EndComp
@@ -587,6 +594,7 @@ F 0 "J5" H 8675 3175 50  0000 C CNN
 F 1 "CONN_4" H 8675 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 8625 3800 50  0001 C CNN
 F 3 "~" H 8625 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 8625 3800 50  0001 C CNN "Ordering"
 	1    8625 3800
 	-1   0    0    1   
 $EndComp
@@ -698,6 +706,7 @@ F 0 "J6" H 10000 3175 50  0000 C CNN
 F 1 "CONN_5" H 10000 3250 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" H 9950 3800 50  0001 C CNN
 F 3 "~" H 9950 3800 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 9950 3800 50  0001 C CNN "Ordering"
 	1    9950 3800
 	-1   0    0    1   
 $EndComp
@@ -709,6 +718,7 @@ F 0 "C3" H 1900 3500 50  0000 L CNN
 F 1 "1uF" H 1900 3425 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1913 3450 50  0001 C CNN
 F 3 "~" H 1875 3600 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor/1uf-50v-multilayer-ceramic-capacitor.html\">Tayda</a>" H 1875 3600 50  0001 C CNN "Ordering"
 	1    1875 3600
 	1    0    0    -1  
 $EndComp
@@ -731,6 +741,7 @@ F 0 "R2" V 1993 3400 50  0000 C CNN
 F 1 "1.2K" V 2084 3400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2130 3400 50  0001 C CNN
 F 3 "~" H 2200 3400 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/resistor-1-2k-ohm-1-4w-1-metal-film-pkg-of-10.html\">Tayda</a>" V 2200 3400 50  0001 C CNN "Ordering"
 	1    2200 3400
 	0    1    1    0   
 $EndComp
@@ -742,6 +753,7 @@ F 0 "R1" V 1968 4400 50  0000 C CNN
 F 1 "1.2K" V 2059 4400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2105 4400 50  0001 C CNN
 F 3 "~" H 2175 4400 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/resistor-1-2k-ohm-1-4w-1-metal-film-pkg-of-10.html\">Tayda</a>" V 2175 4400 50  0001 C CNN "Ordering"
 	1    2175 4400
 	0    1    1    0   
 $EndComp
@@ -753,6 +765,7 @@ F 0 "D2" H 2618 4616 50  0000 C CNN
 F 1 "LED" H 2618 4525 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 2625 4400 50  0001 C CNN
 F 3 "~" H 2625 4400 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/leds/round-leds/3mm-leds/blue/led-3mm-blue-diffuse-lens.html\">Tayda</a>" H 2625 4400 50  0001 C CNN "Ordering"
 	1    2625 4400
 	1    0    0    -1  
 $EndComp
@@ -764,6 +777,7 @@ F 0 "D1" H 2568 3145 50  0000 C CNN
 F 1 "LED" H 2568 3236 50  0000 C CNN
 F 2 "LED_THT:LED_D3.0mm" H 2575 3400 50  0001 C CNN
 F 3 "~" H 2575 3400 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/leds/round-leds/3mm-leds/led-3mm-orange.html\">Tayda</a>" H 2575 3400 50  0001 C CNN "Ordering"
 	1    2575 3400
 	-1   0    0    1   
 $EndComp
@@ -886,6 +900,7 @@ F 0 "J7" H 3400 4325 50  0000 C CNN
 F 1 "PWR_IN_10" H 3400 4416 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3350 4750 50  0001 C CNN
 F 3 "~" H 3350 4750 50  0001 C CNN
+F 4 "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/10-pin-box-header-connector-2-54mm.html\">Tayda</a>" H 3350 4750 50  0001 C CNN "Ordering"
 	1    3350 4750
 	1    0    0    1   
 $EndComp

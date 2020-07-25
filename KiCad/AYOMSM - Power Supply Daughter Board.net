@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source "/Users/joshpanzarella/Documents/KiCad Projects/AYOMSM - Power Supply Daughter Board/KiCad/AYOMSM - Power Supply Daughter Board.sch")
-    (date "Monday, July 20, 2020 at 06:30:11 PM")
+    (date "Saturday, July 25, 2020 at 11:59:45 AM")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
-        (company)
-        (rev)
-        (date)
+        (title "Power Supply Bus")
+        (company Shapetaker)
+        (rev 1.0)
+        (date 2020-07-25)
         (source "AYOMSM - Power Supply Daughter Board.sch")
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -19,6 +19,8 @@
       (value PWR_IN)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0AA55E))
@@ -26,6 +28,8 @@
       (value CONN_1)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0D6B29))
@@ -33,6 +37,8 @@
       (value CONN_2)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0DE860))
@@ -40,6 +46,8 @@
       (value 10uF)
       (footprint Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/10uf-35v-105c-jrb-radial-electrolytic-capacitor-5x11mm.html\">Tayda</a>"))
       (libsource (lib Device) (part CP) (description "Polarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0E2452))
@@ -47,6 +55,8 @@
       (value 10uF)
       (footprint Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/10uf-35v-105c-jrb-radial-electrolytic-capacitor-5x11mm.html\">Tayda</a>"))
       (libsource (lib Device) (part CP) (description "Polarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0F5F1C))
@@ -54,6 +64,8 @@
       (value 1uF)
       (footprint Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor/1uf-50v-multilayer-ceramic-capacitor.html\">Tayda</a>"))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0F7236))
@@ -61,6 +73,8 @@
       (value CONN_3)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F0FFE99))
@@ -68,6 +82,8 @@
       (value CONN_4)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F105FBD))
@@ -75,6 +91,8 @@
       (value CONN_5)
       (footprint Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/16-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x08_Odd_Even) (description "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1144A8))
@@ -82,6 +100,8 @@
       (value 1uF)
       (footprint Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/capacitors/monolithic-ceramic-capacitor/1uf-50v-multilayer-ceramic-capacitor.html\">Tayda</a>"))
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1AD191))
@@ -89,6 +109,8 @@
       (value 1.2K)
       (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/resistor-1-2k-ohm-1-4w-1-metal-film-pkg-of-10.html\">Tayda</a>"))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1E42B6))
@@ -96,6 +118,8 @@
       (value 1.2K)
       (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/resistor-1-2k-ohm-1-4w-1-metal-film-pkg-of-10.html\">Tayda</a>"))
       (libsource (lib Device) (part R) (description Resistor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1E4DC0))
@@ -103,6 +127,8 @@
       (value LED)
       (footprint LED_THT:LED_D3.0mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/leds/round-leds/3mm-leds/blue/led-3mm-blue-diffuse-lens.html\">Tayda</a>"))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1E57D2))
@@ -110,6 +136,8 @@
       (value LED)
       (footprint LED_THT:LED_D3.0mm)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/leds/round-leds/3mm-leds/led-3mm-orange.html\">Tayda</a>"))
       (libsource (lib Device) (part LED) (description "Light emitting diode"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1E669E))
@@ -117,6 +145,8 @@
       (value PWR_IN_10)
       (footprint Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical)
       (datasheet ~)
+      (fields
+        (field (name Ordering) "<a href=\"https://www.taydaelectronics.com/connectors-sockets/box-header-connectors/10-pin-box-header-connector-2-54mm.html\">Tayda</a>"))
       (libsource (lib Connector_Generic) (part Conn_02x05_Odd_Even) (description "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F1647AA)))
