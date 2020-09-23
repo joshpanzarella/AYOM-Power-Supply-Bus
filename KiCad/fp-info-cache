@@ -1,4 +1,4 @@
-16957060757440623
+16977826667135623
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44240,6 +44240,13 @@ MIDI_Connector_Female_Right_Angle
 7
 6
 Custom
+Mini_Toggle_Switch_DPDT_ON-ON
+
+
+0
+6
+6
+Custom
 Mini_Toggle_Switch_SPDT_ON-ON
 
 
@@ -44282,16 +44289,9 @@ Custom_Graphics
 0
 0
 Custom_Graphics
-PS Panel
-
-
-0
-0
-0
-Custom_Graphics
-PS Panel Copper
-
-
+PS_EdgeCuts_IS_14
+Imported from PS_EdgeCuts_IS_14.svg
+svg2mod
 0
 0
 0
@@ -44303,9 +44303,100 @@ Png_test
 0
 0
 Custom_Graphics
+Png_test_copper
+
+
+0
+0
+0
+Custom_Graphics
+Png_test_silk
+
+
+0
+0
+0
+Custom_Graphics
+Png_test_solder
+
+
+0
+0
+0
+Custom_Graphics
 Shape_Taker_Logo_1300_DPI
 
 
+0
+0
+0
+Custom_Graphics
+Text Spec Sheet Copper
+
+
+0
+0
+0
+Custom_Graphics
+Text Spec Sheet Silk
+
+
+0
+0
+0
+Custom_Graphics
+Text Spec Sheet Solder Mask
+
+
+0
+0
+0
+Custom_Graphics
+VCA_Panel_EdgeCuts
+Imported from VCA_Edgecuts_IS_Rd2.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+VCA_Panel_Silkscreen
+Imported from VCA_Silkscreen_IS_Rd4.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+copper
+Imported from copper.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+edge
+Imported from edge.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+fmask
+Imported from fmask.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+silks
+Imported from silks.svg
+svg2mod
+0
+0
+0
+Custom_Graphics
+test1
+Imported from test1.svg
+svg2mod
 0
 0
 0
