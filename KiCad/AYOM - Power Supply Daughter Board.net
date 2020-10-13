@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "/Users/joshpanzarella/Documents/KiCad Projects/AYOMSM - Power Supply Daughter Board/KiCad/AYOMSM - Power Supply Daughter Board.sch")
-    (date "Saturday, July 25, 2020 at 11:59:45 AM")
+    (source "/Users/joshpanzarella/Documents/KiCad Projects/AYOM - Power Supply Daughter Board/KiCad/AYOM - Power Supply Daughter Board.sch")
+    (date "Monday, October 12, 2020 at 09:11:16 PM")
     (tool "Eeschema (5.1.5-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company Shapetaker)
         (rev 1.0)
         (date 2020-07-25)
-        (source "AYOMSM - Power Supply Daughter Board.sch")
+        (source "AYOM - Power Supply Daughter Board.sch")
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
