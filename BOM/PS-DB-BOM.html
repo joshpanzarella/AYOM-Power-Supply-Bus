@@ -23,11 +23,125 @@
   --zone-color: #def5f1;
   --zone-color-highlight: #d0404080;
 }
+/*Josh Imported Styles*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap');
+
+.button-container-outline {
+  border: .5px solid #FBEEDF;
+  border-radius: 7px;
+}
+
+.topmostdiv {
+  box-sizing: border-box;
+}
+
+.fileinfoflex {
+  overflow: auto;
+  display: flex;
+  flex: 1;
+}
+
+.menulist {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.Shapetaker_Logo {
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.header_title {
+  display: flex;
+  color:#FBEEDF;
+  flex: 1 1 auto;
+  margin-bottom: 10px;
+}
+
+.header_title_project {
+  margin-right: 30px;
+}
+
+h2, h5 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-block-start: 0;
+  margin-block-end: 10px;
+  line-height: 18px;
+}
+
+h5 {
+  font-weight: 300;
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+
+
+
+#top {
+  padding-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu-content {
+  font-size: 13px;
+}
+
+.reflookup {
+  width: calc(50% - 40px);
+}
+
+.filter {
+  width: calc(50% - 40px);
+}
+
+.searchbox {
+  margin: 10px 10px 10px 0px;
+}
+
+#fl-btn {
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M16.74927,29.94585V14.05415a.77787.77787,0,0,1,.82178-.858h8.88134a.75077.75077,0,1,1,0,1.49853H18.39283v6.55h7.37108a.73865.73865,0,1,1,0,1.47436H18.39283v7.2268a.82255.82255,0,1,1-1.64356,0Z'/%3E%3C/svg%3E");
+}
+
+#fb-btn {
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M11.07374,29.2235V14.7765a.70747.70747,0,0,1,.74707-.78h8.07494a.68248.68248,0,1,1,0,1.3623H12.56788v5.95459h6.70165a.67152.67152,0,1,1,0,1.34033H12.56788V29.2235a.74777.74777,0,1,1-1.49414,0Z'/%3E%3Cpath class='cls-1' d='M21.83008,29.0697V14.7765a.70747.70747,0,0,1,.74707-.78H27.532c2.7246,0,4.57031,1.571,4.57031,3.91113a3.584,3.584,0,0,1-2.90039,3.57055v.0769a3.90134,3.90134,0,0,1,3.72436,3.94409c0,2.70264-2.0105,4.35058-5.36132,4.35058H22.57715A.70747.70747,0,0,1,21.83008,29.0697Zm4.94384-8.031c2.406,0,3.81225-1.09863,3.81225-2.96631,0-1.72485-1.26342-2.74658-3.3728-2.74658H23.32422V21.0387Zm.58228,7.48168c2.59277,0,4.032-1.13159,4.032-3.09814,0-1.97754-1.49413-3.08716-4.22973-3.08716H23.32422v6.1853Z'/%3E%3C/svg%3E");
+}
+
+#bl-btn {
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M15.89743,29.86131V14.13869a.77787.77787,0,0,1,.82178-.858h5.45c2.99709,0,5.02737,1.72816,5.02737,4.30227a3.9424,3.9424,0,0,1-3.19045,3.92763v.08459a4.29117,4.29117,0,0,1,4.09646,4.33852c0,2.97292-2.21119,4.78567-5.89749,4.78567H16.71921A.77787.77787,0,0,1,15.89743,29.86131ZM21.335,21.02716c2.647,0,4.19387-1.20851,4.19387-3.263,0-1.89735-1.39015-3.02125-3.71047-3.02125H17.541v6.28421Zm.64087,8.22989c2.85206,0,4.43484-1.24475,4.43484-3.408,0-2.1753-1.64357-3.39589-4.65237-3.39589H17.541v6.80386Z'/%3E%3C/svg%3E");
+}
+
+
+
+button#fl-btn:hover {
+ cursor: pointer;
+}
+
+button.pointer:hover {
+ cursor: pointer;
+}
+
+
+
+/*End Josh Imported Styles*/
 
 html, body {
   margin: 0px;
   height: 100%;
-  font-family: Verdana, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 10px;
+  background-color: #1E1E1E;
 }
 
 .dark.topmostdiv {
@@ -37,7 +151,7 @@ html, body {
   --pin1-outline-color-highlight: #ccff00;
   --track-color: #42524f;
   --zone-color: #42524f;
-  background-color: #252c30;
+  background-color: #1E1E1E;
   color: #eee;
 }
 
@@ -56,7 +170,7 @@ button {
 
 .dark button {
   /* This will be inverted */
-  background-color: #c3b7b5;
+  background-color: #1E1E1E;
 }
 
 button.depressed {
@@ -66,7 +180,7 @@ button.depressed {
 
 .dark button.depressed {
   /* This will be inverted */
-  background-color: #b3b;
+  background-color: #649BA6;
 }
 
 button:focus {
@@ -74,23 +188,23 @@ button:focus {
 }
 
 button#tb-btn {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8.47 8.47'%3E%3Crect transform='translate(0 -288.53)' ry='1.17' y='288.8' x='.27' height='7.94' width='7.94' fill='%23f9f9f9'/%3E%3Cg transform='translate(0 -288.53)'%3E%3Crect width='7.94' height='7.94' x='.27' y='288.8' ry='1.17' fill='none' stroke='%23000' stroke-width='.4' stroke-linejoin='round'/%3E%3Cpath d='M1.32 290.12h5.82M1.32 291.45h5.82' fill='none' stroke='%23000' stroke-width='.4'/%3E%3Cpath d='M4.37 292.5v4.23M.26 292.63H8.2' fill='none' stroke='%23000' stroke-width='.3'/%3E%3Ctext font-weight='700' font-size='3.17' font-family='sans-serif'%3E%3Ctspan x='1.35' y='295.73'%3EF%3C/tspan%3E%3Ctspan x='5.03' y='295.68'%3EB%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M9.78319,19.0344V14.12351a1.86718,1.86718,0,0,1,2.09839-2.14234H32.11842a1.86718,1.86718,0,0,1,2.09839,2.14234V19.0344a1.87505,1.87505,0,0,1-2.09839,2.15333H11.88158A1.87505,1.87505,0,0,1,9.78319,19.0344Zm0,11.03029V25.14281a1.8715,1.8715,0,0,1,2.09839-2.14234h7.10816a1.8715,1.8715,0,0,1,2.09839,2.14234v4.92188A1.86718,1.86718,0,0,1,18.98974,32.207H11.88158A1.86718,1.86718,0,0,1,9.78319,30.06469Zm22.30227-10.426c.38452,0,.58228-.19775.58228-.60425V14.12351a.521.521,0,0,0-.58228-.59326H11.90355c-.38452,0-.57129.19775-.57129.59326V19.0344c0,.4065.18677.60425.57129.60425ZM18.95678,30.658a.521.521,0,0,0,.58228-.59326V25.1538c0-.4065-.19775-.60425-.58228-.60425H11.90355c-.38452,0-.57129.19775-.57129.60425v4.91089c0,.39551.18677.59326.57129.59326Zm3.95509-.59326V25.14281a1.8715,1.8715,0,0,1,2.09839-2.14234h7.10816a1.8715,1.8715,0,0,1,2.09839,2.14234v4.92188A1.86718,1.86718,0,0,1,32.11842,32.207H25.01026A1.86718,1.86718,0,0,1,22.91187,30.06469Zm9.18458.59326c.38452,0,.57129-.19775.57129-.59326V25.1538c0-.4065-.18677-.60425-.57129-.60425H25.04322c-.39551,0-.58228.19775-.58228.60425v4.91089a.51669.51669,0,0,0,.58228.59326Z'/%3E%3C/svg%3E");
 }
 
 button#lr-btn {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8.47 8.47'%3E%3Crect transform='translate(0 -288.53)' ry='1.17' y='288.8' x='.27' height='7.94' width='7.94' fill='%23f9f9f9'/%3E%3Cg transform='translate(0 -288.53)'%3E%3Crect width='7.94' height='7.94' x='.27' y='288.8' ry='1.17' fill='none' stroke='%23000' stroke-width='.4' stroke-linejoin='round'/%3E%3Cpath d='M1.06 290.12H3.7m-2.64 1.33H3.7m-2.64 1.32H3.7m-2.64 1.3H3.7m-2.64 1.33H3.7' fill='none' stroke='%23000' stroke-width='.4'/%3E%3Cpath d='M4.37 288.8v7.94m0-4.11h3.96' fill='none' stroke='%23000' stroke-width='.3'/%3E%3Ctext font-weight='700' font-size='3.17' font-family='sans-serif'%3E%3Ctspan x='5.11' y='291.96'%3EF%3C/tspan%3E%3Ctspan x='5.03' y='295.68'%3EB%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M34.21681,25.1538v4.91089A1.86718,1.86718,0,0,1,32.11842,32.207H25.01026a1.86718,1.86718,0,0,1-2.09839-2.14234V25.1538a1.87505,1.87505,0,0,1,2.09839-2.15333h7.10816A1.87505,1.87505,0,0,1,34.21681,25.1538Zm0-11.03029v4.92188a1.8715,1.8715,0,0,1-2.09839,2.14234H25.01026a1.8715,1.8715,0,0,1-2.09839-2.14234V14.12351a1.86718,1.86718,0,0,1,2.09839-2.14234h7.10816A1.86718,1.86718,0,0,1,34.21681,14.12351Zm-9.17359,10.426c-.38453,0-.58228.19775-.58228.60425v4.91089a.521.521,0,0,0,.58228.59326h7.05323c.38452,0,.57129-.19775.57129-.59326V25.1538c0-.4065-.18677-.60425-.57129-.60425Zm0-11.0193a.521.521,0,0,0-.58228.59326V19.0344c0,.4065.19775.60425.58228.60425h7.05323c.38452,0,.57129-.19775.57129-.60425V14.12351c0-.39551-.18677-.59326-.57129-.59326Zm-3.95509.60425V30.06469A1.86718,1.86718,0,0,1,18.98974,32.207H11.88158a1.86718,1.86718,0,0,1-2.09839-2.14234V14.1345a1.87505,1.87505,0,0,1,2.09839-2.15333h7.10816A1.87505,1.87505,0,0,1,21.08813,14.1345Zm-9.18458-.60425c-.38452,0-.57129.19775-.57129.60425V30.06469c0,.39551.18677.59326.57129.59326h7.05323a.51669.51669,0,0,0,.58228-.59326V14.1345c0-.4065-.18677-.60425-.58228-.60425Z'/%3E%3C/svg%3E");
 }
 
 button#bom-btn {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8.47 8.47'%3E%3Crect transform='translate(0 -288.53)' ry='1.17' y='288.8' x='.27' height='7.94' width='7.94' fill='%23f9f9f9'/%3E%3Cg transform='translate(0 -288.53)' fill='none' stroke='%23000' stroke-width='.4'%3E%3Crect width='7.94' height='7.94' x='.27' y='288.8' ry='1.17' stroke-linejoin='round'/%3E%3Cpath d='M1.59 290.12h5.29M1.59 291.45h5.33M1.59 292.75h5.33M1.59 294.09h5.33M1.59 295.41h5.33'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M10.12893,18.67186V14.47509a2.21346,2.21346,0,0,1,2.52685-2.49389H31.34422a2.21346,2.21346,0,0,1,2.52685,2.49389v4.19677a2.22452,2.22452,0,0,1-2.52685,2.51587H12.65578A2.22452,2.22452,0,0,1,10.12893,18.67186Zm0,11.03026V25.49436a2.21781,2.21781,0,0,1,2.52685-2.49389H31.34422a2.21781,2.21781,0,0,1,2.52685,2.49389v4.20776A2.21681,2.21681,0,0,1,31.34422,32.207H12.65578A2.21681,2.21681,0,0,1,10.12893,29.70212ZM31.20067,19.5288a.90417.90417,0,0,0,1.01074-1.02173V14.66186a.8997.8997,0,0,0-1.01074-1.02173H12.78761a.8962.8962,0,0,0-.999,1.02173v3.84521a.90071.90071,0,0,0,.999,1.02173Zm0,11.01927a.90417.90417,0,0,0,1.01074-1.02173V25.68113a.8997.8997,0,0,0-1.01074-1.02173H12.78761a.8962.8962,0,0,0-.999,1.02173v3.84521a.90071.90071,0,0,0,.999,1.02173Z'/%3E%3C/svg%3E");
 }
 
 button#bom-grouped-btn {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cg stroke='%23000' stroke-linejoin='round' class='layer'%3E%3Crect width='29' height='29' x='1.5' y='1.5' stroke-width='2' fill='%23fff' rx='5' ry='5'/%3E%3Cpath stroke-linecap='square' stroke-width='2' d='M6 10h4m4 0h5m4 0h3M6.1 22h3m3.9 0h5m4 0h4m-16-8h4m4 0h4'/%3E%3Cpath stroke-linecap='null' d='M5 17.5h22M5 26.6h22M5 5.5h22'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M10.9313,13.45887a.816.816,0,0,1,.824-.824H32.22276a.82963.82963,0,1,1,0,1.65893H11.75527A.81849.81849,0,0,1,10.9313,13.45887Zm0,5.75682a.816.816,0,0,1,.824-.824H24.11486a.82948.82948,0,1,1,0,1.65893H11.75527A.8185.8185,0,0,1,10.9313,19.21569Zm0,5.75682a.816.816,0,0,1,.824-.824H32.22276a.83475.83475,0,0,1,.84594.824.844.844,0,0,1-.84594.835H11.75527A.82529.82529,0,0,1,10.9313,24.97251Zm0,5.75682a.82528.82528,0,0,1,.824-.83495H24.11486a.83458.83458,0,0,1,.835.83495.82529.82529,0,0,1-.835.824H11.75527A.816.816,0,0,1,10.9313,30.72933Z'/%3E%3C/svg%3E");
 }
 
 button#bom-ungrouped-btn {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cg stroke='%23000' stroke-linejoin='round' class='layer'%3E%3Crect width='29' height='29' x='1.5' y='1.5' stroke-width='2' fill='%23fff' rx='5' ry='5'/%3E%3Cpath stroke-linecap='square' stroke-width='2' d='M6 10h4m-4 8h3m-3 8h4'/%3E%3Cpath stroke-linecap='null' d='M5 13.5h22m-22 8h22M5 5.5h22'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M10.9313,13.45887a.816.816,0,0,1,.824-.824H32.22276a.82963.82963,0,1,1,0,1.65893H11.75527A.81849.81849,0,0,1,10.9313,13.45887Zm0,11.51364a.816.816,0,0,1,.824-.824H32.22276a.83475.83475,0,0,1,.84594.824.844.844,0,0,1-.84594.835H11.75527A.82529.82529,0,0,1,10.9313,24.97251Zm4.054-5.75682a.81848.81848,0,0,1,.83495-.824H28.16881a.82948.82948,0,1,1,0,1.65893H15.8202A.82093.82093,0,0,1,14.98525,19.21569Zm0,11.51364a.82764.82764,0,0,1,.83495-.83495H28.16881a.83459.83459,0,0,1,.835.83495.82529.82529,0,0,1-.835.824H15.8202A.81849.81849,0,0,1,14.98525,30.72933Z'/%3E%3C/svg%3E");
 }
 
 button#bom-netlist-btn {
@@ -98,10 +212,10 @@ button#bom-netlist-btn {
 }
 
 button#copy {
-  background-image: url("data:image/svg+xml,%3Csvg height='48' viewBox='0 0 48 48' width='48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h48v48h-48z' fill='none'/%3E%3Cpath d='M32 2h-24c-2.21 0-4 1.79-4 4v28h4v-28h24v-4zm6 8h-22c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h22c2.21 0 4-1.79 4-4v-28c0-2.21-1.79-4-4-4zm0 32h-22v-28h22v28z'/%3E%3C/svg%3E");
-  background-position: 6px 6px;
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M13.46589,18.28586a2.305,2.305,0,0,1,2.58746-2.62072h1.461V14.12119A2.30872,2.30872,0,0,1,20.10181,11.5h3.1966a2.82346,2.82346,0,0,1,2.18636.835l4.21528,4.28134a2.94845,2.94845,0,0,1,.83406,2.32037v6.77743a2.30839,2.30839,0,0,1-2.58746,2.62072H26.48658v1.54442A2.305,2.305,0,0,1,23.89912,32.5H16.05335a2.30183,2.30183,0,0,1-2.58746-2.62072Zm2.64556,12.87028h7.72114A1.17414,1.17414,0,0,0,25.14271,29.854V23.42751H20.427a1.3952,1.3952,0,0,1-1.56878-1.57769V17.009H16.11989a1.17143,1.17143,0,0,0-1.31013,1.29373V29.854A1.168,1.168,0,0,0,16.11145,31.15614ZM26.48658,23.3605V26.991h1.3851a1.176,1.176,0,0,0,1.31856-1.3017V18.553h-3.906A1.25189,1.25189,0,0,1,23.857,17.12568V12.84386h-3.6886A1.17411,1.17411,0,0,0,18.85822,14.146v1.51911h.14151a2.47114,2.47114,0,0,1,2.09452.79282l4.5995,4.68244A2.58357,2.58357,0,0,1,26.48658,23.3605Zm-1.60252-1.19345-4.76631-4.84926v4.38162c0,.33409.134.46764.46763.46764Zm.59228-4.82442h3.36341l-3.772-3.83948V16.9256C25.06774,17.21752,25.184,17.34263,25.47634,17.34263Z'/%3E%3C/svg%3E");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 26px 26px;
+  background-color: #1E1E1E;
   border-radius: 6px;
   height: 40px;
   width: 40px;
@@ -110,6 +224,10 @@ button#copy {
 
 button#copy:active {
     box-shadow: inset 0px 0px 5px #6c6c6c;
+}
+
+button#copy:hover {
+    cursor: pointer;
 }
 
 textarea.clipboard-temp {
@@ -146,14 +264,14 @@ textarea.clipboard-temp {
 }
 
 .dark .button-container {
-  filter: invert(1);
+  /*filter: invert(1);*/
 }
 
-.button-container button {
+/*.button-container button {
   background-size: 32px 32px;
   background-position: 5px 5px;
   background-repeat: no-repeat;
-}
+}*/
 
 @media print {
   .hideonprint {
@@ -174,11 +292,13 @@ canvas:active {
   max-width: 1000px;
   border: none;
   padding: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #FBEEDF;
 }
 
 .fileinfo .title {
-  font-size: 20pt;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: 300;
 }
 
 .fileinfo td {
@@ -187,12 +307,15 @@ canvas:active {
   max-width: 1px;
   width: 50%;
   text-overflow: ellipsis;
+  color: #FBEEDF;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .bom {
   border-collapse: collapse;
-  font-family: Consolas, "DejaVu Sans Mono", Monaco, monospace;
-  font-size: 10pt;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
   table-layout: fixed;
   width: 100%;
   margin-top: 1px;
@@ -211,20 +334,21 @@ canvas:active {
 }
 
 .bom th {
-  background-color: #CCCCCC;
+  background-color: #0F0F0D;
   background-clip: padding-box;
+  padding: 10px;
 }
 
 .dark .bom th {
-  background-color: #3b4749;
+  background-color: #0F0F0D;
 }
 
 .bom tr.highlighted:nth-child(n) {
-  background-color: #cfc;
+  background-color: #649BA6;
 }
 
 .dark .bom tr.highlighted:nth-child(n) {
-  background-color: #226022;
+  background-color: #649BA6;
 }
 
 .bom tr:nth-child(even) {
@@ -232,7 +356,7 @@ canvas:active {
 }
 
 .dark .bom tr:nth-child(even) {
-  background-color: #313b40;
+  background-color: #0F0F0D;
 }
 
 .bom tr.checked {
@@ -296,7 +420,7 @@ canvas:active {
 }
 
 .bom .bom-checkbox {
-  width: 30px;
+  width: 70px;
   position: relative;
   user-select: none;
   -moz-user-select: none;
@@ -370,19 +494,19 @@ canvas:active {
 .searchbox {
   float: left;
   height: 40px;
-  margin: 10px 5px;
-  padding: 12px 32px;
-  font-family: Consolas, "DejaVu Sans Mono", Monaco, monospace;
-  font-size: 18px;
+  /*margin: 10px 5px;*/
+  padding: 12px 44px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
   box-sizing: border-box;
   border: 1px solid #888;
   border-radius: 6px;
   outline: none;
   background-color: #eee;
   transition: background-color 0.2s, border 0.2s;
-  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABNklEQVQ4T8XSMUvDQBQH8P/LElFa/AIZHcTBQSz0I/gFstTBRR2KUC4ldDxw7h0Bl3RRUATxi4iiODgoiLNrbQYp5J6cpJJqomkX33Z37/14d/dIa33MzDuYI4johOI4XhyNRteO46zNYjDzAxE1yBZprVeZ+QbAUhXEGJMA2Ox2u4+fQIa0mPmsCgCgJYQ4t7lfgF0opQYAdv9ABkKI/UnOFCClXKjX61cA1osQY8x9kiRNKeV7IWA3oyhaSdP0FkAtjxhj3hzH2RBCPOf3pzqYHCilfAAX+URm9oMguPzeWSGQvUcMYC8rOBJCHBRdqxTo9/vbRHRqi8bj8XKv1xvODbiuW2u32/bvf0SlDv4XYOY7z/Mavu+nM1+BmQ+NMc0wDF/LprP0DbTWW0T00ul0nn4b7Q87+X4Qmfiq2wAAAABJRU5ErkJggg==');
-  background-position: 10px 10px;
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M11.542,18.86428a8.44851,8.44851,0,1,1,15.16117,5.11964l5.17457,5.18556a1.25917,1.25917,0,0,1-.86792,2.13135,1.2527,1.2527,0,0,1-.90088-.36255l-5.20754-5.20753A8.43989,8.43989,0,0,1,11.542,18.86428Zm15.07328,0a6.62478,6.62478,0,1,0-6.62478,6.62477A6.66784,6.66784,0,0,0,26.61523,18.86428Z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .dark .searchbox {
@@ -398,13 +522,13 @@ canvas:active {
   color: #666;
 }
 
-.filter {
+/*.filter {
   width: calc(60% - 64px);
-}
+}*/
 
-.reflookup {
+/*.reflookup {
   width: calc(40% - 10px);
-}
+}*/
 
 input[type=text]:focus {
   background-color: white;
@@ -431,7 +555,7 @@ mark.highlight {
 .menubtn {
   background-color: white;
   border: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 20 20'%3E%3Cpath fill='none' d='M0 0h20v20H0V0z'/%3E%3Cpath d='M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z'/%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M19.31642,32.0707l-.463-1.968-.33676-.11576-1.70486,1.05239a1.60776,1.60776,0,0,1-2.06268-.25258L13.28626,29.324a1.58263,1.58263,0,0,1-.25257-2.05215l1.0629-1.70486-.11576-.31572-1.968-.463a1.62714,1.62714,0,0,1-1.27338-1.62067V21.08381a1.61663,1.61663,0,0,1,1.27338-1.62067l1.94691-.47357.12629-.33677-1.06291-1.70486a1.584,1.584,0,0,1,.25257-2.05215l1.46282-1.47334a1.61755,1.61755,0,0,1,2.05215-.25257l1.70486,1.05239.35781-.13681.463-1.968a1.6085,1.6085,0,0,1,1.62067-1.27339h2.12582a1.6085,1.6085,0,0,1,1.62067,1.27339l.45253,1.968.35781.13681,1.71538-1.05239a1.60314,1.60314,0,0,1,2.04163.25257l1.47334,1.47334a1.59645,1.59645,0,0,1,.25257,2.05215L29.90341,18.6528l.13681.33677,1.94691.47357a1.61663,1.61663,0,0,1,1.27338,1.62067v2.08372a1.62714,1.62714,0,0,1-1.27338,1.62067l-1.968.463-.12629.31572,1.07343,1.70486a1.595,1.595,0,0,1-.25257,2.05215L29.2404,30.78679a1.59355,1.59355,0,0,1-2.05215.25258L25.47287,29.987l-.33676.11576-.45253,1.968a1.6085,1.6085,0,0,1-1.62067,1.27339H20.93709A1.6085,1.6085,0,0,1,19.31642,32.0707Zm3.57811-.36833c.1789,0,.27362-.07367.29466-.242l.642-2.60991a5.8714,5.8714,0,0,0,1.68381-.69458l2.2942,1.4102a.28809.28809,0,0,0,.39991-.05262l1.23129-1.24181a.28028.28028,0,0,0,.04209-.38939l-1.41019-2.27315a7.18448,7.18448,0,0,0,.684-1.68381l2.62043-.62091a.27515.27515,0,0,0,.242-.30519V21.24167a.2628.2628,0,0,0-.242-.30519l-2.60991-.63143a7.9518,7.9518,0,0,0-.67353-1.69434L29.493,16.33756a.29519.29519,0,0,0-.03158-.41043l-1.24181-1.22077a.29754.29754,0,0,0-.41043-.05262l-2.28367,1.38915a7.677,7.677,0,0,0-1.69434-.684l-.642-2.631c-.021-.16838-.11576-.24205-.29466-.24205H21.10547a.26815.26815,0,0,0-.30519.24205l-.6209,2.60991a8.53612,8.53612,0,0,0-1.72591.69458l-2.27315-1.37863a.2848.2848,0,0,0-.39991.05262l-1.25234,1.22077a.30574.30574,0,0,0-.03157.41043l1.39967,2.27315a8.55092,8.55092,0,0,0-.67352,1.69434l-2.59939.63143c-.17891.03157-.24205.11576-.24205.30519v1.75748a.26814.26814,0,0,0,.24205.30519l2.60991.62091a7.667,7.667,0,0,0,.68405,1.68381L14.507,27.88221a.29074.29074,0,0,0,.0421.38939l1.24181,1.24181a.27553.27553,0,0,0,.38939.05262l2.29419-1.4102a5.94282,5.94282,0,0,0,1.69434.69458l.63143,2.60991a.26815.26815,0,0,0,.30519.242ZM17.97989,22.0941A4.01485,4.01485,0,1,1,22,26.11421,4.03579,4.03579,0,0,1,17.97989,22.0941Zm6.37745,0A2.368,2.368,0,1,0,22,24.483,2.383,2.383,0,0,0,24.35734,22.0941Z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -439,7 +563,7 @@ mark.highlight {
 .statsbtn {
   background-color: white;
   border: none;
-  background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 6h28v24H4V6zm0 8h28v8H4m9-16v24h10V5.8' fill='none' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M10.79394,22.0941A11.20606,11.20606,0,1,1,22,33.30016,11.27964,11.27964,0,0,1,10.79394,22.0941Zm20.54444,0A9.33289,9.33289,0,1,0,22,31.43248,9.31893,9.31893,0,0,0,31.33838,22.0941Zm-12.063,5.27344a.779.779,0,0,1,.802-.769H21.4397V21.55577H20.26416a.76557.76557,0,0,1-.802-.769.779.779,0,0,1,.802-.769h2.06543c.5603,0,.85693.39551.85693.98877V26.5985h1.36231a.779.779,0,0,1,.802.769.76557.76557,0,0,1-.802.769H20.07739A.76557.76557,0,0,1,19.27539,27.36754Zm1.19751-10.6128A1.42823,1.42823,0,1,1,21.90112,18.183,1.42779,1.42779,0,0,1,20.4729,16.75474Z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -447,13 +571,13 @@ mark.highlight {
 .iobtn {
   background-color: white;
   border: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Cpath fill='none' stroke='%23000' stroke-width='2' d='M3 33v-7l6.8-7h16.5l6.7 7v7H3zM3.2 26H33M21 9l5-5.9 5 6h-2.5V15h-5V9H21zm-4.9 0l-5 6-5-6h2.5V3h5v6h2.5z'/%3E%3Cpath fill='none' stroke='%23000' d='M6.1 29.5H10'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fbeedf;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M13.15251,30.25373V20.30466c0-2.05361,1.04674-3.09039,3.13027-3.09039h2.78135v1.605H16.30271a1.39822,1.39822,0,0,0-1.54519,1.5751V30.164a1.39821,1.39821,0,0,0,1.54519,1.5751H27.68732a1.40959,1.40959,0,0,0,1.55516-1.5751V20.39438a1.40959,1.40959,0,0,0-1.55516-1.5751H24.93587v-1.605h2.78135c2.08353,0,3.13027,1.03678,3.13027,3.09039v9.94907c0,2.05362-1.04674,3.09039-3.13027,3.09039H16.28278C14.19925,33.34412,13.15251,32.30735,13.15251,30.25373Zm8.055-5.49292V14.52264l.06979-1.49535-.6779.7078-1.51528,1.615a.73308.73308,0,0,1-.5483.23925.69439.69439,0,0,1-.71777-.7078.70563.70563,0,0,1,.23926-.51838l3.36952-3.2499a.75563.75563,0,0,1,1.15641,0l3.36952,3.2499a.70584.70584,0,0,1-.49845,1.22618.72763.72763,0,0,1-.53833-.23925l-1.50532-1.615-.67789-.7078.05982,1.49535V24.76081a.79379.79379,0,0,1-.78756.77758A.80264.80264,0,0,1,21.20746,24.76081Z'/%3E%3C/svg%3E");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .dark .statsbtn, .dark .savebtn, .dark .menubtn, .dark .iobtn {
-  filter: invert(1);
+  /*filter: invert(1);*/
 }
 
 .flexbox {
@@ -470,6 +594,7 @@ mark.highlight {
   flex-grow: 1;
   margin: 5px;
   border-radius: 4px;
+  color:#FBEEDF;
 }
 
 .savebtn:active {
@@ -484,7 +609,7 @@ mark.highlight {
 
 .stats {
   border-collapse: collapse;
-  font-size: 12pt;
+  font-size: 13px;
   table-layout: fixed;
   width: 100%;
   min-width: 450px;
@@ -543,7 +668,9 @@ mark.highlight {
 }
 
 .menu:hover .menubtn, .menu:hover .iobtn, .menu:hover .statsbtn {
-  background-color: #eee;
+  /*background-color: #eee;*/
+  border-radius: 6px;
+  border: 1px solid #888;
 }
 
 .menu-label {
@@ -595,7 +722,7 @@ mark.highlight {
 }
 
 #top {
-  height: 78px;
+  /*height: 78px;*/
   border-bottom: 2px solid black;
 }
 
@@ -727,7 +854,11 @@ a {
 }
 
 .dark a {
-  color: #00b9fd;
+  color: #FBEEDF;
+}
+
+.dark a:hover {
+  text-decoration: none;
 }
 
 #frontcanvas, #backcanvas {
@@ -3368,15 +3499,153 @@ window.matchMedia("print").addListener(resizeAll);
 
 <div id="topmostdiv" class="topmostdiv">
   <div id="top">
-    <div style="float: right; height: 100%;">
-      <div class="hideonprint menu" style="float: right; top: 8px;">
+    <div class="Shapetaker_Logo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="71.99752" height="71.99865" viewBox="0 0 71.99752 71.99865"><defs><style>.cls-1{fill:#FBEEDF;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M35.99876,71.99865A35.99933,35.99933,0,1,1,71.99752,35.99932,36.04022,36.04022,0,0,1,35.99876,71.99865Zm0-69.12474a33.12542,33.12542,0,1,0,33.126,33.12541A33.163,33.163,0,0,0,35.99876,2.87391Z"/><path class="cls-1" d="M25.21952,49.2901v7.31442a1.70261,1.70261,0,0,1-3.40519,0V49.30525a4.36,4.36,0,0,0,1.70259.3086A5.67867,5.67867,0,0,0,25.21952,49.2901Z"/><path class="cls-1" d="M50.2061,22.69644V17.1043a3.42,3.42,0,0,0-3.40519-3.4052H25.18932a3.38768,3.38768,0,0,0-3.375,3.3749V37.79265c0,.76824.78311,1.19059,1.63452,1.19059s1.77067-.33436,1.77067-1.19059V18.75387a1.69557,1.69557,0,0,1,1.695-1.71017H45.10588a1.69557,1.69557,0,0,1,1.695,1.71017v3.94257a5.06252,5.06252,0,0,1,1.74047-.29088A4.36879,4.36879,0,0,1,50.2061,22.69644Z"/><path class="cls-1" d="M48.5035,32.80636c.84066,0,1.7026.36194,1.7026.908V56.60452a1.70261,1.70261,0,0,1-3.40519,0V33.88083C46.80091,33.1683,47.66284,32.80636,48.5035,32.80636Z"/><path class="cls-1" d="M60.9488,39.47917a1.652,1.652,0,0,1-1.18394.28166,1.67815,1.67815,0,0,1-1.184-.72648l-3.97153-5.82619c-1.50177-2.20547-3.19435-3.45956-5.00876-3.70683l-.03-.00409c-1.83155-.23431-3.78289.52319-5.82415,2.2764L30.473,43.20746c-2.76709,2.37213-5.6925,3.43989-8.49666,3.05775-.01706.013-.01706.013-.03207.01092-2.78916-.38011-5.32421-2.17673-7.37472-5.175l-3.97155-5.826A1.70369,1.70369,0,0,1,13.41078,33.352l3.97155,5.826c1.51471,2.22271,3.19229,3.47476,5.0217,3.72407l.015.002c1.83156.23432,3.8-.53615,5.8262-2.29141L41.51667,29.194c2.76711-2.37232,5.7075-3.43786,8.4987-3.07276l.045.00613c2.77414.37806,5.32625,2.16172,7.36177,5.15776l3.96948,5.8412A1.6825,1.6825,0,0,1,60.9488,39.47917Z"/></g></g>
+      </svg>
+    </div>
+    <div class="header_title">
+      <div class="header_title_project">
+        <h2>Power Supply Bus</h2>
+        <h5>Shapetaker Audio</h5>
+        <h5>Rev: 1.2 | 2020-10-012</h5>
+      </div>
+    </div>
+  <!-- OLD TABLE HEADER -->
+  <div id="fileinfodiv" style="overflow: auto;display: none;">
+      <table class="fileinfo">
+        <tbody>
+          <tr>
+            <td id="title" class="title" style="width: 70%">
+              Title
+            </td>
+            <td id="revision" class="title" style="width: 30%">
+              Revision
+            </td>
+          </tr>
+          <tr>
+            <td id="company">
+              Company
+            </td>
+            <td id="filedate">
+              Date
+            </td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div class="menulist">  
+  <!-- FB FB BUTTONS -->
+    <div class="button-container hideonprint" style="position: relative;margin-right:20px;">
+          <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')"
+                title="Front only">
+          </button>
+          <button id="fb-btn" class="middle-button" onclick="changeCanvasLayout('FB')"
+                title="Front and Back">
+          </button>
+          <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout('B')"
+                title="Back only">
+          </button>
+    </div>
+    <div class="button-container hideonprint" style="position: relative;margin-right:20px;">
+        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout('bom-only')"
+                title="BOM only"></button>
+        <button id="lr-btn" class="middle-button" onclick="changeBomLayout('left-right')"
+                title="BOM left, drawings right"></button>
+        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout('top-bottom')"
+                title="BOM top, drawings bot"></button>
+    </div>
+    <div class="button-container hideonprint" style="position: relative;margin-right:20px;">
+        <button id="bom-grouped-btn" class="left-most-button" onclick="changeBomMode('grouped')"
+                title="Grouped BOM"></button>
+        <button id="bom-ungrouped-btn" class="middle-button" onclick="changeBomMode('ungrouped')"
+                title="Ungrouped BOM"></button>
+        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode('netlist')"
+                title="Netlist"></button>
+    </div>
+    <!--  -->
+    <div class="hideonprint menu">
+        <button class="statsbtn"></button>
+        <div class="menu-content">
+          <table class="stats">
+            <tbody>
+              <tr>
+                <td width="40%">Board stats</td>
+                <td>Front</td>
+                <td>Back</td>
+                <td>Total</td>
+              </tr>
+              <tr>
+                <td>Components</td>
+                <td id="stats-components-front">~</td>
+                <td id="stats-components-back">~</td>
+                <td id="stats-components-total">~</td>
+              </tr>
+              <tr>
+                <td>Groups</td>
+                <td id="stats-groups-front">~</td>
+                <td id="stats-groups-back">~</td>
+                <td id="stats-groups-total">~</td>
+              </tr>
+              <tr>
+                <td>SMD pads</td>
+                <td id="stats-smd-pads-front">~</td>
+                <td id="stats-smd-pads-back">~</td>
+                <td id="stats-smd-pads-total">~</td>
+              </tr>
+              <tr>
+                <td>TH pads</td>
+                <td colspan=3 id="stats-th-pads">~</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="stats">
+            <col width="40%"/><col />
+            <tbody id="checkbox-stats">
+              <tr>
+                <td colspan=2 style="border-top: 0">Checkboxes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="hideonprint menu" >
+        <button class="iobtn"></button>
+        <div class="menu-content">
+          <div class="menu-label menu-label-top">
+            <div style="margin-left: 5px;">Save board image</div>
+            <div class="flexbox">
+              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width"
+                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+              <span>X</span>
+              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height"
+                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
+            </div>
+            <label>
+              <input id="render-save-transparent" type="checkbox">
+              Transparent background
+            </label>
+            <div class="flexbox">
+              <button class="savebtn" onclick="saveImage('F')">Front</button>
+              <button class="savebtn" onclick="saveImage('B')">Back</button>
+            </div>
+          </div>
+          <div class="menu-label">
+            <span style="margin-left: 5px;">Config and checkbox state</span>
+            <div class="flexbox">
+              <button class="savebtn" onclick="saveSettings()">Export</button>
+              <button class="savebtn" onclick="loadSettings()">Import</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="hideonprint menu">
         <button class="menubtn"></button>
         <div class="menu-content">
-          <label class="menu-label menu-label-top" style="width: calc(50% - 18px)">
+          <label class="menu-label menu-label-top" style="width: calc(50% - 18px);display:none;">
             <input id="darkmodeCheckbox" type="checkbox" onchange="setDarkMode(this.checked)">
             Dark mode
           </label><!-- This comment eats space! All of it!
-          --><label class="menu-label menu-label-top" style="width: calc(50% - 17px); border-left: 0;">
+          --><label class="menu-label menu-label-top">
             <input id="fullscreenCheckbox" type="checkbox" onchange="setFullscreen(this.checked)">
             Full Screen
           </label>
@@ -3443,136 +3712,11 @@ window.matchMedia("print").addListener(resizeAll);
             </span>
           </label>
         </div>
-      </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="fl-btn" class="left-most-button" onclick="changeCanvasLayout('F')"
-                title="Front only">F
-        </button>
-        <button id="fb-btn" class="middle-button" onclick="changeCanvasLayout('FB')"
-                title="Front and Back">FB
-        </button>
-        <button id="bl-btn" class="right-most-button" onclick="changeCanvasLayout('B')"
-                title="Back only">B
-        </button>
-      </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="bom-btn" class="left-most-button" onclick="changeBomLayout('bom-only')"
-                title="BOM only"></button>
-        <button id="lr-btn" class="middle-button" onclick="changeBomLayout('left-right')"
-                title="BOM left, drawings right"></button>
-        <button id="tb-btn" class="right-most-button" onclick="changeBomLayout('top-bottom')"
-                title="BOM top, drawings bot"></button>
-      </div>
-      <div class="button-container hideonprint"
-           style="float: right; position: relative; top: 8px">
-        <button id="bom-grouped-btn" class="left-most-button" onclick="changeBomMode('grouped')"
-                title="Grouped BOM"></button>
-        <button id="bom-ungrouped-btn" class="middle-button" onclick="changeBomMode('ungrouped')"
-                title="Ungrouped BOM"></button>
-        <button id="bom-netlist-btn" class="right-most-button" onclick="changeBomMode('netlist')"
-                title="Netlist"></button>
-      </div>
-      <div class="hideonprint menu" style="float: right; top: 8px;">
-        <button class="statsbtn"></button>
-        <div class="menu-content">
-          <table class="stats">
-            <tbody>
-              <tr>
-                <td width="40%">Board stats</td>
-                <td>Front</td>
-                <td>Back</td>
-                <td>Total</td>
-              </tr>
-              <tr>
-                <td>Components</td>
-                <td id="stats-components-front">~</td>
-                <td id="stats-components-back">~</td>
-                <td id="stats-components-total">~</td>
-              </tr>
-              <tr>
-                <td>Groups</td>
-                <td id="stats-groups-front">~</td>
-                <td id="stats-groups-back">~</td>
-                <td id="stats-groups-total">~</td>
-              </tr>
-              <tr>
-                <td>SMD pads</td>
-                <td id="stats-smd-pads-front">~</td>
-                <td id="stats-smd-pads-back">~</td>
-                <td id="stats-smd-pads-total">~</td>
-              </tr>
-              <tr>
-                <td>TH pads</td>
-                <td colspan=3 id="stats-th-pads">~</td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="stats">
-            <col width="40%"/><col />
-            <tbody id="checkbox-stats">
-              <tr>
-                <td colspan=2 style="border-top: 0">Checkboxes</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="hideonprint menu" style="float: right; top: 8px;">
-        <button class="iobtn"></button>
-        <div class="menu-content">
-          <div class="menu-label menu-label-top">
-            <div style="margin-left: 5px;">Save board image</div>
-            <div class="flexbox">
-              <input id="render-save-width" class="menu-textbox" type="text" value="1000" placeholder="Width"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
-              <span>X</span>
-              <input id="render-save-height" class="menu-textbox" type="text" value="1000" placeholder="Height"
-                  style="flex-grow: 1; width: 50px;" oninput="validateSaveImgDimension(this)">
-            </div>
-            <label>
-              <input id="render-save-transparent" type="checkbox">
-              Transparent background
-            </label>
-            <div class="flexbox">
-              <button class="savebtn" onclick="saveImage('F')">Front</button>
-              <button class="savebtn" onclick="saveImage('B')">Back</button>
-            </div>
-          </div>
-          <div class="menu-label">
-            <span style="margin-left: 5px;">Config and checkbox state</span>
-            <div class="flexbox">
-              <button class="savebtn" onclick="saveSettings()">Export</button>
-              <button class="savebtn" onclick="loadSettings()">Import</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="fileinfodiv" style="overflow: auto;">
-      <table class="fileinfo">
-        <tbody>
-          <tr>
-            <td id="title" class="title" style="width: 70%">
-              Title
-            </td>
-            <td id="revision" class="title" style="width: 30%">
-              Revision
-            </td>
-          </tr>
-          <tr>
-            <td id="company">
-              Company
-            </td>
-            <td id="filedate">
-              Date
-            </td>
-          </tr>
-        </tbody>
-      </table>
     </div>
   </div>
+
+  </div>
+  <!--  -->
   <div id="bot" class="split" style="height: calc(100% - 80px)">
     <div id="bomdiv" class="split split-horizontal">
       <div style="width: 100%">
